@@ -1,0 +1,30 @@
+.trendingTopicsContainer {
+    margin-top: 3rem;
+    width: 90%;
+}
+
+.TrendingTopicsHeader {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 1rem;
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+.TrendingTopicsHeader:hover{
+    background-color: white;
+    color: #28a745;
+    border: 2px solid #28a745;
+} 
+
+.TrendingTopicsItemsContainer {
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bolder;
+    border-bottom: 1px solid grey;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}

@@ -1,0 +1,30 @@
+.CustomFilterListContainer{
+    border-bottom: 1px solid #B2BEB5;
+    margin-bottom: 0.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.allFilterTitle{
+    color: white;
+}
+
+.customFilterListItems {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkboxAndLabelContainer {
+    color: white;
+    display: flex;
+    margin: 5px;
+    padding: 3px;
+}
+
+.checkboxAndLabelContainer label:hover{
+    color: #8B5DFF;;
+}
+
+.RangeSliderContainer {
+    margin: 1rem;
+}

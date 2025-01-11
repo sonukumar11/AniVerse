@@ -1,0 +1,31 @@
+.quickFilterTextContainer{
+    color: white;
+    margin: 0.5rem;
+    border-bottom: 2px solid rgba(130, 36, 227 , 0.5);
+    padding: 0.5rem;
+}
+
+.allFilterContainer {
+    margin-left: 1rem;
+}
+
+.buttonsContainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.buttonsContainer button {
+    margin: 0.5rem;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 20px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.buttonsContainer button:hover{
+    cursor: pointer;
+    color: #8B5DFF;
+}

@@ -1,0 +1,15 @@
+.parentCommentContainer {
+    margin-top: 0.5rem;
+    border-bottom: 1px solid grey;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1rem;
+}
+
+.commentHeader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cfbbc9e6;
+    margin-bottom: 0.5rem;
+    color: gray;
+}

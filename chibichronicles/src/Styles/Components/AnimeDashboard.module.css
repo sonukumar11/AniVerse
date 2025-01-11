@@ -1,0 +1,67 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topAnimeList {
+    width: 70%;
+    height: 40rem;
+    margin: 0;
+    margin-left: 2rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.popularAnimeTitleContainer {
+    color: white;
+    border-bottom: 1px solid #A6AEBF;
+    font-size: xx-large;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.topAnimeAndFilterContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.animeFilterContainer {
+    background-color: #222;
+    margin-top: 3.5rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.noDataContentCard {
+    color: #8224e3;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    padding: 5.2rem;
+    background-color: #0b0a0d;
+}
+
+/* Full page modal background */
+.loadingModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it's on top of other content */
+}
+
+/* You can style the spinner as well */
+.loadingModal .loader {
+    display: inline-block;
+    position: relative;
+}

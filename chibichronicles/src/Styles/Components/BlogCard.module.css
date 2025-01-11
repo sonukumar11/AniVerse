@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+.blogCardParentContainer {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.blogHeader{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #cfbbc9e6;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.blogHeaderStartingContent {
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.headerInnerContainerStart{
+    display: flex;
+    margin: auto 0 auto 1rem;
+    border-right: 1px solid #cfbbc9e6;
+    padding-right: 1rem;
+}
+
+.headerInnerContainer{
+    display: flex;
+    margin: auto 0 auto 1.5rem;
+    border-right: 1px solid #cfbbc9e6;
+    padding-right: 1rem;
+}
+
+.LikesCountSpan{
+    margin: auto;
+    margin-left: 1rem;
+}
+
+.blogHeaderEndingContent{
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.BlogTitleContainer {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.blogBodyContainer {
+    margin-left: 1rem;
+}
+
+.blogFooter {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #cfbbc9e6;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.CommentsContainer {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-right: 1px solid #cfbbc9e6;
+    cursor: pointer;
+}
+
+.LeaveAReplyContainer {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    cursor: pointer;
+}
+
+.sliderFooterParentContainer{
+    margin-top: 1rem;
+}
+
+
+/* Initially hide the sliding div */
+.slideDiv {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+    margin-top: 2rem;
+    overflow-y: scroll;
+}
+  
+  /* When the div is open, apply height and padding */
+.open {
+    height: 14rem; /* Adjust height based on content */
+}

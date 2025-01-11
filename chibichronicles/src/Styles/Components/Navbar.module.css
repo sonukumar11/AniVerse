@@ -1,0 +1,70 @@
+.WholeLinksAndButtonsConatiner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 2rem;
+}
+
+
+.rightSideLoginAndSearchConatiner {
+    display: flex;
+    width: 45%;
+    justify-content: flex-end;
+}
+
+.searchFormContainer {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.searchFormContainer input{
+    margin-right: 0.5rem;
+}
+
+.loginLogoutContainer {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.loginContainer{
+    color: white;
+}
+
+
+.loginLogoutContainer img{
+    height: 2rem;
+    width: 2rem;
+    margin-top: 0.2rem;
+    margin-right: 0.5rem;
+}
+
+li:hover {
+    border-bottom: 1px solid #8B5DFF;
+}
+
+
+.userNameContainer{
+    color: green;
+    border: 1px solid green;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+
+.userNameContainer:hover {
+    background-color: rgb(17, 122, 17);
+    color: white;
+    transition: 0.5s;
+}
+
+.unorderedListContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.unorderedListContainer  li{
+    margin-left: 1.5rem;
+}

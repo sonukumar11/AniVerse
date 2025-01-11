@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.animeCard { 
+    border-radius: 10px;
+    max-height: 40rem;
+    width: 30%;
+    background-color: #F8FAFC;
+    margin: 20px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    border: 1px solid #9AA6B2;
+    transition: transform 0.3s ease , box-shadow 0.5s ease;
+}
+
+.animeCard:hover {
+    box-shadow: 10px 10px 10px #8B5DFF;
+    transform: translateY(-10px);;
+}
+
+.animeCardHeader {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: #8224e3;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.animeTitle {
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.animeAgeRating {
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.animeCoverImage {
+    width: 97%;                  /* Container takes full width of the parent */
+    height: 300px;                /* Fixed height for the container */
+    overflow: hidden;             /* Prevents image from overflowing when zoomed */
+    position: relative;           /* Necessary to position the image absolutely */
+    border-radius: 30px;          /* Optional: Rounded corners */           /* Optional: Padding around the container */
+    margin: 0.5rem;                 /* Optional: Margin outside the container */
+  }
+  
+  .animeCoverImage img {
+    position: absolute;           /* Absolutely position the image inside the container */
+    top: 0;
+    left: 0;
+    width: 100%;                  /* Ensure the image takes up full width */
+    height: 100%;                 /* Ensure the image takes up full height */
+    object-fit: cover;            /* Makes sure the image covers the entire container */
+    object-position: center;      /* Center the image */
+    border-radius: 30px;          /* Match the container's border-radius */
+    transition: transform 0.5s ease; /* Smooth transition when zooming */
+    transform-origin: center;     /* Zoom from the center */
+  }
+  
+  .animeCoverImage:hover img {
+    transform: scale(1.1);        /* Zoom the image by 10% on hover */
+  }
+  
+
+.animeDateParent {
+    display: flex;
+    flex-direction: column;
+}
+
+.animeDate {
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #BCCCDC;
+    margin: 0.5rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+}
+
+.animeStatus {
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #BCCCDC;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.animeDescriptionParent {
+    background-color: #8224e3;
+    color: white;
+    border-radius: 0 0 10px 10px;  /* Top-left, Top-right, Bottom-right, Bottom-left */
+}
+
+.animeDescriptionParent p {
+    padding: 10px;
+    margin: 0;
+}
+
+.boldParams{
+    font-weight: bold;
+}
+

@@ -1,0 +1,77 @@
+.blogHomePageParentContainer{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    height: 94vh;
+    overflow: hidden;
+}
+
+.AllBlogsContainer{
+    width: 70%;
+    overflow-y: auto;
+    /* border: 1px solid blue; */
+}
+
+.blogSideBarContainer{
+    width: 29%;
+    /* border: 1px solid orangered; */
+}
+
+.blogSideBarContainer {
+    border-left: 1px solid grey;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.buttonContainer {
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+  
+.writeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #28a745;  /* Green background */
+    color: white;
+    font-size: 20px;
+    border: 2px solid #28a745;  /* Border same as background */
+    border-radius: 30px;  /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;  /* Smooth transition for hover effect */
+    font-weight: 500;
+    width: 90%;
+}
+  
+  .writeButton:hover {
+    background-color: white;
+    color: #28a745;
+    border-color: #28a745;
+    cursor: pointer;
+  }
+  
+  .writeButton:focus {
+    outline: none;
+  }
+  
+  /* Styling for the pen icon inside the button */
+  .penIcon {
+    margin-left: 8px;  /* Space between text and icon */
+    width: 20px;  /* Set width for the icon */
+    height: 20px;  /* Set height for the icon */
+    transition: transform 0.3s ease;  /* Smooth transition for hover effect */
+  }
+  
+  .writeButton:hover .penIcon {
+    transform: rotate(30deg);  /* Rotate the pen icon slightly when hovered */
+  }
+
+  .siderBarContainersParent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  

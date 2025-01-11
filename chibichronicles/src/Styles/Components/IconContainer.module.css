@@ -1,0 +1,18 @@
+/* Icon container styling */
+.iconContainer {
+    display: inline-flex; /* Ensures icons are inline */
+    justify-content: center;
+    align-items: center;
+    width: 32px; /* Adjust width for desired icon size */
+    height: 32px; /* Adjust height for desired icon size */
+    border-radius: 50%; /* Optional: Makes the container circular */
+    background-color: #f5f5f5; /* Optional: Adds a light background */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+/* Icon image styling */
+.iconImage{
+    width: 100%; /* Ensures the image fits the container's width */
+    height: 100%; /* Ensures the image fits the container's height */
+    object-fit: contain;
+}
